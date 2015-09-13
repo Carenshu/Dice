@@ -8,7 +8,7 @@ void draw()
 {
 	for (int y=0; y<100; y+=10)
 	{
-		for (int x=0; x<100; x+=100)
+		for (int x=0; x<100; x+=10)
 		{
 			Die dice1 = new Die (50,50);
 	        dice1.show();
@@ -18,7 +18,7 @@ void draw()
 	}                                            
 	
 }
-void mousePressed()
+void mouseClicked()
 {
 	redraw();
 }
