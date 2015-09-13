@@ -1,4 +1,4 @@
-int rolling;
+
 void setup()
 {
        noLoop();
@@ -29,7 +29,7 @@ class Die //models one single dice cube
 {
         int dieX;
         int dieY;
-        
+        int rolling;
         Die (int x,int y)//constructor
         {
                 roll();
