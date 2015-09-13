@@ -19,7 +19,7 @@ void draw()
 	}                                            
 	
 }
-void mouseClicked()
+void mousePressed()
 {
 	redraw();
 }
@@ -28,6 +28,7 @@ class Die //models one single dice cube
 {
 	int dieX;
 	int dieY;
+	}
 	Die (int x,int y)//constructor
 	{
 		//roll();
