@@ -12,6 +12,7 @@ void draw()
 		{
 			Die dice1 = new Die (50,50);
 	        dice1.show();
+	        dice1.roll();
 	        text(rolling,25,25);
 		}
 		
