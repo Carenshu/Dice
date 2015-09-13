@@ -1,4 +1,4 @@
-
+int rolling;
 void setup()
 {
        noLoop();
@@ -30,6 +30,7 @@ class Die //models one single dice cube
         int dieX;
         int dieY;
         int rolling;
+        
         Die (int x,int y)//constructor
         {
                 roll();
@@ -42,10 +43,7 @@ class Die //models one single dice cube
                 rolling = (int)(Math.random ()*6);
 
         }
-        void num()
-        {
-            return rolling;
-         }
+       
         void show()
         {
             
@@ -99,3 +97,5 @@ class Die //models one single dice cube
         }
         }
 }
+
+
