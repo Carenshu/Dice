@@ -10,7 +10,7 @@ void draw()
 	{
 		for (int x=0; x<100; x+=10)
 		{
-			Die dice1 = new Die (50,50);
+			Die dice1 = new Die (x,y);
 	        dice1.show();
 	        dice1.roll();
 	        text(rolling,25,25);
