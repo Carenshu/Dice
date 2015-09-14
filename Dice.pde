@@ -83,7 +83,7 @@ class Die //models one single dice cube
                 ellipse(dieX+35, dieY+35, 5,5);
                 ellipse(dieX+10, dieY+35, 5,5);
                 ellipse(dieX+35, dieY+10, 5,5);
-                ellispe(dieX+25,dieY+25,5,5);
+                ellipse(dieX+25,dieY+25,5,5);
         }
          if (rolling==5)
         {
@@ -92,8 +92,8 @@ class Die //models one single dice cube
                 ellipse(dieX+35, dieY+35, 5,5);
                 ellipse(dieX+10, dieY+35, 5,5);
                 ellipse(dieX+35, dieY+10, 5,5);
-                ellispe(dieX+25,dieY+10,5,5);
-                ellipse(dieX+10, dieY+25,5,5);
+                ellipse(dieX+25,dieY+10,5,5);
+                ellipse(dieX+25, dieY+35,5,5);
         }
         }
 }
