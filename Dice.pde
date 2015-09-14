@@ -14,7 +14,7 @@ void draw()
                         dice1.roll();
                         dice1.show();
                
-                        text(rolling,25,25);
+                        
                 }
                 
         }                                            
