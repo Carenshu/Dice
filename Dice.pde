@@ -47,7 +47,9 @@ class Die //models one single dice cube
         void show()
         {
             
+            
                 rect(dieX, dieY,50,50);
+                fill (Math.random()*255,Math.random()*255,Math.random()*255);
                 if (rolling==0)
                 {
                 rect(dieX, dieY,50,50);
@@ -97,5 +99,3 @@ class Die //models one single dice cube
         }
         }
 }
-
-
