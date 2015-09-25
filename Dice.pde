@@ -4,6 +4,7 @@ void setup()
 {
        noLoop();
         size(500, 500);
+
 }
 void draw()
 {
@@ -15,17 +16,18 @@ void draw()
                         dice1.roll();
                         dice1.show();
                         sum=sum+ dice1.rolling;
-                        fill(255,0,0);
-                        //text("sum"+sum);
+                        text("sum"+sum,450,450);
+                        
                         
                 }
                
         }                                            
-         text("sum"+sum,450,450);
+         
 }
 void mousePressed()
 {
         redraw();
+       
 }
 
 class Die //models one single dice cube
@@ -43,7 +45,7 @@ class Die //models one single dice cube
         }
         void roll()
         { 
-                rolling = (int)(Math.random ()*6);
+                rolling = (int)(Math.random ()*6)+1;
 
         }
        
@@ -52,7 +54,7 @@ class Die //models one single dice cube
             
             
                 rect(dieX, dieY,50,50);
-                fill (Math.random()*255,Math.random()*255,Math.random()*255);
+                fill ((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
                 if (rolling==1)
                 {
                 rect(dieX, dieY,50,50);
