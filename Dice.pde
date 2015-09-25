@@ -1,4 +1,5 @@
 int rolling;
+int sum=0;
 void setup()
 {
        noLoop();
@@ -6,15 +7,16 @@ void setup()
 }
 void draw()
 {
-        for (int y=0; y<512; y+=50)
+        for (int y=0; y<450; y+=50)
         {
-                for (int x=0; x<512; x+=50)
+                for (int x=0; x<450; x+=50)
                 {
                         Die dice1 = new Die (x,y);
                         dice1.roll();
                         dice1.show();
-               
-                        
+                        sum=sum+ dice1.rolling;
+                        fill(255,0,0);
+                        print("sum",490,490);
                 }
                 
         }                                            
@@ -99,3 +101,4 @@ class Die //models one single dice cube
         }
         }
 }
+
