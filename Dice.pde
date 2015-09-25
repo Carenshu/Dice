@@ -16,7 +16,7 @@ void draw()
                         dice1.show();
                         sum=sum+ dice1.rolling;
                         fill(255,0,0);
-                        text("sum"+sum);
+                        //text("sum"+sum);
                         
                 }
                
