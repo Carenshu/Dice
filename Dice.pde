@@ -19,9 +19,9 @@ void draw()
                         
                         
                 }
-                text("sum:"+sum,440,475);
+                
         }                                           
-        
+        text("sum:"+sum,440,475);
 }
 void mousePressed()
 {
