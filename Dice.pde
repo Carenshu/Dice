@@ -53,19 +53,19 @@ class Die //models one single dice cube
             
                 rect(dieX, dieY,50,50);
                 fill (Math.random()*255,Math.random()*255,Math.random()*255);
-                if (rolling==0)
+                if (rolling==1)
                 {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+25, dieY+25, 5,5); //for roll=1
         }   
-         if (rolling==1)
+         if (rolling==2)
         {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+15, dieY+15, 5,5);
                 ellipse(dieX+35, dieY+35, 5,5);
 
         }         
-    if (rolling==2)
+    if (rolling==3)
         {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+15, dieY+15, 5,5);
@@ -73,7 +73,7 @@ class Die //models one single dice cube
                 ellipse(dieX+25, dieY+25, 5,5);
                 
         }
-         if (rolling ==3)
+         if (rolling ==4)
         {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+10, dieY+10, 5,5);
@@ -81,7 +81,7 @@ class Die //models one single dice cube
                 ellipse(dieX+10, dieY+35, 5,5);
                 ellipse(dieX+35, dieY+10, 5,5);
         } 
-         if (rolling ==4)
+         if (rolling ==5)
         {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+10, dieY+10, 5,5);
@@ -90,7 +90,7 @@ class Die //models one single dice cube
                 ellipse(dieX+35, dieY+10, 5,5);
                 ellipse(dieX+25,dieY+25,5,5);
         }
-         if (rolling==5)
+         if (rolling==6)
         {
                 rect(dieX, dieY,50,50);
                 ellipse(dieX+10, dieY+10, 5,5);
