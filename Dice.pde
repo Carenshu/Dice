@@ -1,5 +1,5 @@
 int rolling;
-int sum=0;
+int sum;
 void setup()
 {
        noLoop();
