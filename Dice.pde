@@ -15,18 +15,18 @@ void draw()
                         Die dice1 = new Die (x,y);
                         dice1.roll();
                         dice1.show();
-                        sum=sum+ dice1.rolling;
-                        text("sum"+sum,450,450);
+                        sum=sum+ dice1.rolling;                        
                         
                         
                 }
-               
-        }                                            
-         
+                text("sum:"+sum,440,475);
+        }                                           
+        
 }
 void mousePressed()
 {
-        redraw();
+       redraw();
+
        
 }
 
@@ -104,4 +104,5 @@ class Die //models one single dice cube
         }
         }
 }
+
 
