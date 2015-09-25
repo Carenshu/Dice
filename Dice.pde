@@ -16,12 +16,12 @@ void draw()
                         dice1.show();
                         sum=sum+ dice1.rolling;
                         fill(255,0,0);
-                        println("sum"+sum,490,490);
+                        println("sum"+sum);
                         
                 }
-                
+               
         }                                            
-        
+         print("sum"+sum,450,450);
 }
 void mousePressed()
 {
